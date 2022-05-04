@@ -7,17 +7,28 @@ export default function Post() {
       <div className='postWrapper'>
         <div className='postTop'>
             <div className='postTopLeft'>
-                
+                <img className='postProfileImg' src='/assets/w.jpeg'/>
                 <span className='postUsername'>Aashvi Kothari</span>
                 <span className='postDate'>5 mins ago</span>
-                <img className='postProfileImg' src='/assets/ad.png'/>
             </div>
             <div className='postTopRight'>
                 <MoreVertIcon />
             </div>
         </div>
         <div className='postCenter'></div>
-        <div className='postBottom'></div>
+            <span className='postText'>Hey! its fp</span>
+            <br></br>
+            <img className='postImg' src='/assets/ad.png'/>
+        <div className='postBottom'>
+        <div className='postBottomLeft'>
+            <img className='likeIcon' src='/assets/like.png'/>
+            <img className='likeIcon' src='/assets/heart.png'/>
+            <span className='postLikeCounter'>32 people liked it!</span>
+        </div>
+        <div className='postBottomRight'>
+            <span>8 Comments</span>
+        </div>
+        </div>
      </div>
     </div>
   )
