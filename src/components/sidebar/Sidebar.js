@@ -61,36 +61,10 @@ export default function Sidebar() {
             </ul>
             <button className="sidebarButton">Show More</button>
             <hr className="sidebarHr"/>
+
+
             <ul className="sidebarFriendList">
-                <li className="sidebarFriend">
-                    <img className="sidebarFriendImg" src="/assets/f1.jpeg" alt=""/>
-                    <span className="sidebarFriendName">Aashvi Kothari</span>
-                </li>
-
-                <li className="sidebarFriend">
-                    <img className="sidebarFriendImg" src="/assets/f1.jpeg" alt=""/>
-                    <span className="sidebarFriendName">Aashvi Kothari</span>
-                </li>
-
-                <li className="sidebarFriend">
-                    <img className="sidebarFriendImg" src="/assets/f1.jpeg" alt=""/>
-                    <span className="sidebarFriendName">Aashvi Kothari</span>
-                </li>
-
-                <li className="sidebarFriend">
-                    <img className="sidebarFriendImg" src="/assets/f1.jpeg" alt=""/>
-                    <span className="sidebarFriendName">Aashvi Kothari</span>
-                </li>
-
-                <li className="sidebarFriend">
-                    <img className="sidebarFriendImg" src="/assets/f1.jpeg" alt=""/>
-                    <span className="sidebarFriendName">Aashvi Kothari</span>
-                </li>
-
-                <li className="sidebarFriend">
-                    <img className="sidebarFriendImg" src="/assets/f1.jpeg" alt=""/>
-                    <span className="sidebarFriendName">Aashvi Kothari</span>
-                </li>
+               
             </ul>
         </div>
      </div>
