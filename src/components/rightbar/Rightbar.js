@@ -51,17 +51,27 @@ export default function Rightbar({profile}) {
           </div>
 
           <div className="rightbarFollowing">
-            <img className="righbarFollowingImg" src="/assets/person/1.jpeg"/>
+            <img className="righbarFollowingImg" src="/assets/person/2.jpeg"/>
             <span className="rightbarFollowingName">John cameolo</span>
           </div>
 
           <div className="rightbarFollowing">
-            <img className="righbarFollowingImg" src="/assets/person/1.jpeg"/>
+            <img className="righbarFollowingImg" src="/assets/person/3.jpeg"/>
             <span className="rightbarFollowingName">John cameolo</span>
           </div>
 
           <div className="rightbarFollowing">
-            <img className="righbarFollowingImg" src="/assets/person/1.jpeg"/>
+            <img className="righbarFollowingImg" src="/assets/person/4.jpeg"/>
+            <span className="rightbarFollowingName">John cameolo</span>
+          </div>
+
+          <div className="rightbarFollowing">
+            <img className="righbarFollowingImg" src="/assets/person/5.jpeg"/>
+            <span className="rightbarFollowingName">John cameolo</span>
+          </div>
+
+          <div className="rightbarFollowing">
+            <img className="righbarFollowingImg" src="/assets/person/6.jpeg"/>
             <span className="rightbarFollowingName">John cameolo</span>
           </div>
         </div>
@@ -71,7 +81,7 @@ export default function Rightbar({profile}) {
   return (
     <div className="rightbar">
       <div className="rightbarwrapper">
-        <ProfileRightBar/>
+        {profile ? <ProfileRightBar/> :<HomeRightbar />}
       </div>
     </div>
   )
