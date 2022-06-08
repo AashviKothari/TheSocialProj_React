@@ -3,7 +3,7 @@ import {Users} from "../../dummyData"
 import Online from "../online/Online"
 
 export default function Rightbar({profile}) {
-
+  const PF = process.env.REACT_APP_PUBLIC_FOLDER;
   const HomeRightbar = ()=>{
     return(
       <>
@@ -46,32 +46,32 @@ export default function Rightbar({profile}) {
         <h4 className="rightbarTitle">User Friends </h4>
         <div className="rightbarFollowings">
           <div className="rightbarFollowing">
-            <img className="righbarFollowingImg" src="/assets/person/1.jpeg"/>
+            <img className="righbarFollowingImg" src={`${PF}person/1.jpeg`}/>
             <span className="rightbarFollowingName">John cameolo</span>
           </div>
 
           <div className="rightbarFollowing">
-            <img className="righbarFollowingImg" src="/assets/person/2.jpeg"/>
+            <img className="righbarFollowingImg" src={`${PF}person/2.jpeg`}/>
             <span className="rightbarFollowingName">John cameolo</span>
           </div>
 
           <div className="rightbarFollowing">
-            <img className="righbarFollowingImg" src="/assets/person/3.jpeg"/>
+            <img className="righbarFollowingImg" src={`${PF}person/3.jpeg`}/>
             <span className="rightbarFollowingName">John cameolo</span>
           </div>
 
           <div className="rightbarFollowing">
-            <img className="righbarFollowingImg" src="/assets/person/4.jpeg"/>
+            <img className="righbarFollowingImg" src={`${PF}person/4.jpeg`}/>
             <span className="rightbarFollowingName">John cameolo</span>
           </div>
 
           <div className="rightbarFollowing">
-            <img className="righbarFollowingImg" src="/assets/person/5.jpeg"/>
+            <img className="righbarFollowingImg" src={`${PF}person/5.jpeg`}/>
             <span className="rightbarFollowingName">John cameolo</span>
           </div>
 
           <div className="rightbarFollowing">
-            <img className="righbarFollowingImg" src="/assets/person/6.jpeg"/>
+            <img className="righbarFollowingImg" src={`${PF}person/6.jpeg`}/>
             <span className="rightbarFollowingName">John cameolo</span>
           </div>
         </div>
